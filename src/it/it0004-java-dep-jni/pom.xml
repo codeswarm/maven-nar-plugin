@@ -31,26 +31,27 @@ under the License.
 
   <artifactId>it0004-java-dep-jni</artifactId>
   <packaging>nar</packaging>
-  
+
   <name>Maven NAR Java Class Depends on JNI</name>
   <description>
     Java class which depends on a separate JNI library
   </description>
-  
+
   <properties>
     <skipTests>true</skipTests>
-  </properties>  
-  
+  </properties>
+
   <build>
     <defaultGoal>integration-test</defaultGoal>
     <plugins>
       <plugin>
+        <groupId>org.codeswarm</groupId>
         <artifactId>maven-nar-plugin</artifactId>
         <extensions>true</extensions>
       </plugin>
     </plugins>
   </build>
-  
+
   <dependencies>
     <dependency>
       <groupId>org.apache.maven.its.nar</groupId>

@@ -31,22 +31,23 @@ under the License.
 
   <artifactId>it0003-jni</artifactId>
   <packaging>nar</packaging>
-  
+
   <name>Maven NAR JNI Test</name>
   <version>1.0-SNAPSHOT</version>
   <description>
     Simple JNI Library
   </description>
   <url>http://maven.apache.org/</url>
-  
+
   <properties>
     <skipTests>true</skipTests>
-  </properties>  
+  </properties>
 
   <build>
     <defaultGoal>install</defaultGoal>
     <plugins>
       <plugin>
+        <groupId>org.codeswarm</groupId>
         <artifactId>maven-nar-plugin</artifactId>
         <extensions>true</extensions>
         <configuration>

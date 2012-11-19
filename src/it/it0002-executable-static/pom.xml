@@ -28,10 +28,10 @@ under the License.
     <version>1.0-SNAPSHOT</version>
     <relativePath>../it-parent/pom.xml</relativePath>
   </parent>
-  
+
   <artifactId>it0002-executable-static</artifactId>
   <packaging>nar</packaging>
-  
+
   <name>Maven NAR Static Executable Test</name>
   <version>1.0-SNAPSHOT</version>
   <description>
@@ -46,6 +46,7 @@ under the License.
     <defaultGoal>integration-test</defaultGoal>
     <plugins>
       <plugin>
+        <groupId>org.codeswarm</groupId>
         <artifactId>maven-nar-plugin</artifactId>
         <extensions>true</extensions>
         <configuration>

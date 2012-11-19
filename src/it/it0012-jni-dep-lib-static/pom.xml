@@ -46,6 +46,7 @@ under the License.
     <defaultGoal>integration-test</defaultGoal>
     <plugins>
       <plugin>
+        <groupId>org.codeswarm</groupId>
         <artifactId>maven-nar-plugin</artifactId>
         <extensions>true</extensions>
         <configuration>
@@ -60,7 +61,7 @@ under the License.
       </plugin>
     </plugins>
   </build>
-  
+
   <dependencies>
     <dependency>
       <groupId>org.apache.maven.its.nar</groupId>

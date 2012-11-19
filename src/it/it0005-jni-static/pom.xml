@@ -51,6 +51,7 @@
         <defaultGoal>install</defaultGoal>
         <plugins>
           <plugin>
+            <groupId>org.codeswarm</groupId>
             <artifactId>maven-nar-plugin</artifactId>
             <extensions>true</extensions>
             <configuration>
@@ -96,6 +97,7 @@
             </configuration>
           </plugin>
           <plugin>
+            <groupId>org.codeswarm</groupId>
             <artifactId>maven-nar-plugin</artifactId>
             <extensions>true</extensions>
             <configuration>

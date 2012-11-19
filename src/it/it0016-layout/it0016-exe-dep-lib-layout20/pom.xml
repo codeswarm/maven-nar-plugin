@@ -30,7 +30,7 @@ under the License.
 
   <artifactId>it0016-exe-dep-lib-layout20</artifactId>
   <packaging>nar</packaging>
-  
+
   <name>Maven NAR Executable and Shared Library (Layout20)</name>
   <version>1.0-SNAPSHOT</version>
   <description>
@@ -40,11 +40,12 @@ under the License.
   <properties>
     <skipTests>true</skipTests>
   </properties>
-   
+
   <build>
     <defaultGoal>integration-test</defaultGoal>
     <plugins>
       <plugin>
+        <groupId>org.codeswarm</groupId>
         <artifactId>maven-nar-plugin</artifactId>
         <extensions>true</extensions>
         <configuration>

@@ -36,6 +36,14 @@
   </description>
   <url>http://duns.github.com/maven-nar-plugin/</url>
 
+  <developers>
+    <developer>
+      <id>chris-martin</id>
+      <name>Chris Martin</name>
+      <url>https://github.com/chris-martin</url>
+    </developer>
+  </developers>
+
   <prerequisites>
     <maven>2.0.9</maven>
   </prerequisites>
